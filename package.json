@@ -1,0 +1,30 @@
+{
+  "name": "ai-agency-roadmap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "testMatch": ["**/__tests__/**/*.test.js"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sorobitg/AI-Agency-Roadmap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sorobitg/AI-Agency-Roadmap/issues"
+  },
+  "homepage": "https://github.com/sorobitg/AI-Agency-Roadmap#readme",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "jest": "^30.3.0",
+    "jest-environment-jsdom": "^30.3.0"
+  }
+}
